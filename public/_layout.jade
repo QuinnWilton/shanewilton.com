@@ -1,7 +1,10 @@
 doctype
-html(lang="en")
+html(lang='en')
   head
     title= title
-    link(rel="stylesheet" href="/layout.css")
-  body(background= "assets/background.gif")
+    link(rel='stylesheet' href='layout.css')
+  body(background= 'assets/background.gif')
     != yield
+    div(id= 'footer')
+      img(src= 'assets/netscape_now.gif')
+      p= 'Copyright (c) 1999'
