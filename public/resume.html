@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Shane Wilton - Resume</title>
+		<style type="text/css" media="screen">
+			body {
+				font-family: Arial, Helvetica, sans-serif;
+				font-size: 1em;
+				padding: 0;
+				margin: 1em;
+			}
+			/* Ensures min. width of document */
+			#wrap {
+				margin: auto;
+				min-width: 700px;
+				max-width: 800px;
+			}
+			/* Page header */
+			h1 {
+				background-color: #2B3A42;
+				font-size: 2em;
+				margin: 0;
+				-moz-border-radius: 5px;
+				-webkit-border-radius: 5px;
+				-o-border-radius: 5px;
+				border-radius: 5px;
+			}
+			h2, h3, .info {
+				font-size: 1.2em;
+				font-weight: bold;
+				font-family: Georgia, "Times New Roman", Times, serif;
+			}
+			h1, h2, h3 {
+				color: #FFFFFF;
+				padding: 0.3em;
+			}
+			/* Section */
+			h2 {
+				background-color: #3F5765;
+				padding: 0.4em;
+				margin-left: 1em;
+				-moz-border-radius: 5px;
+				-webkit-border-radius: 5px;
+				-o-border-radius: 5px;
+				border-radius: 5px;
+			}
+			/* Section Heading */
+			h3 {
+				background-color:  #BDD4DE;
+				color: #333;
+				margin-left: 2em;
+				font-size: 0.9em;
+				-moz-border-radius: 3px;
+				-webkit-border-radius: 3px;
+				-o-border-radius: 3px;
+				border-radius: 3px;
+			}
+			/* Section Heading info text */
+			.info {
+				margin-top: -2.5em;
+				margin-right: 0.4em;
+				text-align: right;
+				color: #333;
+				font-style: italic;
+				font-size: 0.9em;
+			}
+				.date {
+					color: #666666;
+				}
+			/* Header info text */
+			#info {
+				text-align: left;
+				margin-top: -3.7em;
+				margin-right: 1em;
+				color: #FFF;
+				font-size: 0.9em;
+				float: right;
+			}
+				#info .col {
+					float: left;
+					text-align: left;
+					margin-left: 10px;
+					margin-top: 8px;
+				}
+				#info .label {
+					font-weight: bold;
+					text-align: right;
+				}
+				#info a {
+					color: #FFF;
+					text-decoration: none;
+				}
+			ul {
+				margin-left: 2em;
+				padding-left: 2em;
+			}
+				ul li {
+					font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+					padding: 0.1em;
+					margin-bottom: 0.5em;
+				}
+					/* Spacing fix for nested lists */
+					ul li ul {
+						margin-left: 0;
+						margin-top: 0.5em;
+					}
+			.clear {
+				clear: both;
+			}
+		</style>
+		<style type="text/css" media="print">
+			body {
+				font-family: Arial, Helvetica, sans-serif;
+				font-size: .9em;
+			}
+			h2, h3 {
+				font-family: Georgia, "Times New Roman", Times, serif;
+			}
+			ul {
+			}
+				ul li {
+					font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+					padding: 0.1em;
+					margin-bottom: 0.5em;
+				}
+					/* Spacing fix for nested lists */
+					ul li ul {
+						margin-left: 0;
+						margin-top: 0.5em;
+					}
+			#info .col {
+				float: left;
+				text-align: left;
+				margin-left: 10px;
+				margin-top: 8px;
+			}
+			#info .label {
+				font-weight: bold;
+				text-align: right;
+			}
+			.clear {
+				clear: both;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div id="wrap">
+			<h1>Shane Wilton</h1>
+			<div id="info">
+				<div class="col">
+					<div class="label">Github:</div>
+				</div>
+				<div class="col">
+					<a href="http://github.com/ShaneWilton">github.com/shanewilton</a>
+				</div>
+				<div class="col">
+					<div class="label">Mobile:</div>
+					<div class="label">Email:</div>
+				</div>
+				<div class="col">
+					+1 (519) 590-6113<br>
+					shane.wilton@gmail.com<br>
+				</div>
+				<div class="clear"></div>
+			</div>
+
+			<h2>About me</h2>
+			<ul>
+				<li>I'm a full-time student, and part-time hacker, so I'm always trying to put together new technologies in interesting ways. Ask me about them!</li>
+				<li>I have a chronic inability to work with a system without trying to break it in some way. If you've shown me code, chances are I've already scoured it for buffer overflows, unsanitized inputs, or useful hooks!</li>
+				<li>I play a mean ultimate frisbee, and an even meaner Dota</li>
+			</ul>
+
+			<h2>Qualifications</h2>
+			<ul>
+				<li>Subset of languages I regularly use</li>
+				<ul>
+					<li>Functional - Haskell, Racket, Erlang</li>
+					<li>Object Oriented - C#, Java, Ruby</li>
+					<li>Imperative - Go, C, Lua</li>
+				</ul>
+				<li>Reverse engineering (IDA Pro, Ollydbg, etc.)</li>
+				<li>Operations and Deployment (Chef, AWS, Jenkins, Gerrit)</li>
+				<li>Relational databases (MSSQL, PostgreSQL, SQLite)</li>
+				<li>Embedded systems and circuit design (Arduino, PIC)</li>
+			</ul>
+
+			<h2>Relevant Work Experience</h2>
+			<h3>Security Engineer</h3>
+			<div class="info">
+				<span class="location">Lookout Inc. (University Co-Op)</span>
+				<span class="date">(January 2013 - August 2013)</span>
+			</div>
+			<ul>
+				<li>Architected and implemented a binary acquisition pipeline in Ruby</li>
+				<ul>
+					<li>Used to create web crawlers which crawl 100+ GB of Android applications per day</li>
+					<li>Required a fault-tolerant design for downloading and manipulating files up to 40 GB in size</li>
+				</ul>
+				<li>Implemented a testing and deployment system for security policies.</li>
+				<ul>
+					<li>Reduced deployment time from 1 week, to 2 hours.</li>
+					<li>Resulted in a false-positive rate of zero over the course of eight months</li>
+					<li>Written in Ruby, using S3 and Cloudfront for deployment, and ElasticSearch for analytics</li>
+				</ul>
+				<li>Reverse engineered thousands of Android malware samples, to document their behaviour, and protect against them</li>
+				<ul>
+					<li>Participated in investigations targeting cybercrime groups</li>
+					<li>I have a ton of stories, so ask me about them!</li>
+				</ul>
+				<li>Maintained and extended a 100k+ line Rails applicaton</li>
+			</ul>
+
+			<h3>.Net Software Developer</h3>
+			<div class="info">
+				<span class="location">Desire2Learn (University Co-Op)</span>
+				<span class="date">(May 2012 - September 2012)</span>
+			</div>
+			<ul>
+				<li>Developed a complete rewrite of the company's flagship product, using C#, Javascript, and SQL, with a team of two others</li>
+			</ul>
+
+			<h3>Founder</h3>
+			<div class="info">
+				<span class="location">Noteworthy Incorporated, via Junior Achievement</span>
+				<span class="date">(October 2007 - June 2008)</span>
+			</div>
+			<ul>
+				<li>Commanded a staff of fifteen students in the running of a small startup</li>
+				<li>Earned an economic profit in excess of 300% the initial investment, over a six-month long period</li>
+				<li>Awarded multiple distinctions, including "Most Successful Company" and "Best First-Year participant"</li>
+			</ul>
+
+			<h2>Recent Projects</h2>
+			<h3>Dissentr - A High-Latency, Overlay Mix Network</h3>
+			<div class="info">
+				<span class="location">Personal</span>
+				<span class="date">(2013)</span>
+			</div>
+			<ul>
+				<li>Designed and implemented a proof of concept mix network in Erlang</li>
+				<li>Targeted and protected against 3 vulnerabilities which plague Tor</li>
+				<li>Developed over 36 hours, as part of the mHacks hackathon</li>
+			</ul>
+
+			<h3>KeySwap</h3>
+			<div class="info">
+				<span class="location">Personal</span>
+				<span class="date">(2013)</span>
+			</div>
+			<ul>
+				<li>Developed an Android Application for facilitating PGP key exchange</li>
+				<li>Provided the following functionality:</li>
+				<ul>
+					<li>Synching a keyring between Android device and computer</li>
+					<li>Using NFC to send public keys to nearby Android devices</li>
+					<li>Optionally signing the exchanged keys, then pushing updated versions to either a remote key-server, or the source device</li>
+				</ul>
+				<li>Developed over 48 hours as part of a hackathon, as the lead developer in a team of two</li>
+			</ul>
+
+			<h3>Dexy</h3>
+			<div class="info">
+				<span class="location">Personal</span>
+				<span class="date">(2013)</span>
+			</div>
+			<ul>
+				<li>Developed a framework for manipulating Dalvik Executables (DEX files) in Go</li>
+				<li>Required obtaining a complete understanding of the DEX format, along with of arcane encodings such as MUTF-8 and Uleb128</li>
+			</ul>
+
+			<h3>YADCPUE - Yet Another DCPU-16 Emulator</h3>
+			<div class="info">
+				<span class="location">Personal</span>
+				<span class="date">(2013)</span>
+			</div>
+			<ul>
+				<li>Developed an emulator for DCPU-16 in Haskell</li>
+			</ul>
+
+			<h3>Sublime Smali</h3>
+			<div class="info">
+				<span class="location">Personal</span>
+				<span class="date">(2013)</span>
+			</div>
+			<ul>
+				<li>Developed a plugin for Sublime Text to aid in reverse engineering Android Applications</li>
+				<li>Provides the most advanced open-source syntax highlighting available for Smali (Smali is a human-readable representation of Dalvik bytecode)</li>
+				<li>In use by a number of leading Android reverse engineers</li>
+			</ul>
+
+			<h3>Sumo Robot</h3>
+			<div class="info">
+				<span class="location">Sir John A. Macdonald S. S.</span>
+				<span class="date">(2010)</span>
+			</div>
+			<ul>
+				<li>Constructed an autonomous robot for a robotics competition involving the forceful removal of one's opponents from an arena</li>
+				<li>Programmed using BASIC on a PIC microcontroller</li>
+				<li>Hand-soldered using homemade PCBs</li>
+				<li>Won first-prize in the competition</li>
+			</ul>
+
+			<h2>Education, Scholarships, and Awards</h2>
+			<ul>
+				<li>
+					Candidate for Bachelor of Computer Science, University of Waterloo
+					<ul>
+						<li>Research in Motion Technical Excellence Scholarship</li>
+						<li>UW Alumni@Microsoft Entrance Scholarship</li>
+						<li>Descartes Entrance Scholarship for Mathematics</li>
+						<li>President's Scholarship of Distinction</li>
+					</ul>
+				</li>
+				<li>Senior Canadian Computing Competition - 18th in Canada</li>
+				<li>University of Toronto High School Design Competition Finalist</li>
+			</ul>
+		</div>
+	</body>
+</html>
