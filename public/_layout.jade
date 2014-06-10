@@ -3,7 +3,7 @@ html(lang='en')
   head
     title= title
     link(rel='stylesheet' href='layout.css')
-  body(background= 'assets/background.gif')
+  body
     div(id= 'header')
       img(src= 'assets/netscape_now.gif')
     != yield
@@ -12,5 +12,5 @@ html(lang='en')
       img(src= "assets/under_construction.gif")
       img(src= "assets/under_construction.gif")
       br
-      marquee(width= '50%') This page is under construction
+      marquee This page is under construction
       p= 'Copyright (c) 1999'
